@@ -1,4 +1,5 @@
-<h2>Git</h2>
+<h1>Git essencial</h1>
+<hr>
 <b>git status:</b> Exibe as alterações do projeto, mapeamento das alterações tais como arquivos monitorados e ou modificados. Também podemos dizer que é a diferença do que está enviado ao servidor ou salvo no projeto;
 <br>
 <b>git add</b> Adiciona um arquivo  específico, como também vários arquivos ao mesmo tempo.<br>
@@ -24,3 +25,6 @@
 <b>.gitigore</b>
 <h2>DESFAZENDO TODAS AS ALTERAÇÕES</h2>
 <b>git reset --hard branch</b> Resetas todas as mudanças feitas, commitadas e pendentes serão excluídas.
+<hr>
+<h1>Branches</h1>
+<p>São ramificações de um projeto, ou seja a forma que o git separa a 'versao' do projeto. Todos a partit do branch main/master. Geralmente a cada nova feature do projeto fica em uma branch separada, após as sua alterações os branchs são unidos para chegar o código fonte final.</p>
