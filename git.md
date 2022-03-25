@@ -1,5 +1,5 @@
-git status: Exibe as alterações do projeto, mapeamento das alterações tais como arquivos monitorados e ou modificados. Também podemos dizer que é a diferença do que está enviado ao servidor ou salvo no projeto;
-
+<h3>git status:</h3> Exibe as alterações do projeto, mapeamento das alterações tais como arquivos monitorados e ou modificados. Também podemos dizer que é a diferença do que está enviado ao servidor ou salvo no projeto;
+<br>
 git add Adiciona um arquivo  específico, como também vários arquivos ao mesmo tempo.
 git add . Adiciona todos os arquivos do diretório atual.
 SALVANDO ALTERAÇÕES
