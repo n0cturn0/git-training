@@ -6,5 +6,11 @@
 <h3>SALVANDO ALTERAÇÕES</h3>
 <b>git commit arquivo -m "Mensagem informativa do commit"</b>  Salva as alterações do projeto, arquivos específicos ou diversos arquivos ao mesmo tempo.<br>
 <b>git commit -a -m "Mensagem informativa do commit"</b>
-<h2>ENVIANDO O CÓDIGO AO GITHUB</h2>
+<h3>ENVIANDO O CÓDIGO AO GITHUB</h3>
 <b>git push</b> 
+<h2>RECEBENDO AS MUNDANÇAS</H2>
+<h3>git pull</h3>É comum também ter que sinconizar o local com as mudanças do remoto. Busca atualização, se encontradas serão unidas ao código atual.
+<h2>CLONANDO REPOSITÓRIOS</H2>
+<b>git clone url</b>
+<h2>REMOVENDO ARQUIVOS</H2>
+<b>git rm file</b>
