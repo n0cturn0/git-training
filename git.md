@@ -14,3 +14,11 @@
 <b>git clone url</b>
 <h2>REMOVENDO ARQUIVOS</H2>
 <b>git rm file</b>
+<h2>VERIFICANDO ALTERAÇÕES POR MEIO DE LOG</H2>
+<b> git log </b> exibe as movimentações da mais antiga para a mais atual
+<h2>RENOMEANDO ARQUIVO</H2>
+<b>git mv </b> Sintaxe identica ao mv do linux.
+<h2>DESFAZENDO OPERAÇÕES</h2>
+<b>git checkout file</b> retorna ao estado original, ou seja o estado que o arquivo se encontra no repositório.(rollback)
+<h2>IGNORANDO ARQUIVOS E OU DIRETÓRIOS</h2>
+<b>.gitigore</b>
