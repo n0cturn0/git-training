@@ -22,3 +22,5 @@
 <b>git checkout file</b> retorna ao estado original, ou seja o estado que o arquivo se encontra no repositório.(rollback)
 <h2>IGNORANDO ARQUIVOS E OU DIRETÓRIOS</h2>
 <b>.gitigore</b>
+<h2>DESFAZENDO TODAS AS ALTERAÇÕES</h2>
+<b>git reset --hard branch</b> Resetas todas as mudanças feitas, commitadas e pendentes serão excluídas.
