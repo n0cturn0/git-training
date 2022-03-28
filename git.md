@@ -31,7 +31,8 @@
 <h2>Criando e visualizando os branchs</h2>
 <p><b>git branch</b> Lista os branchs do projeto</p>
 <p><b>git branch nome-do-branch</b> Cria um novo branch</p>
-<h2>DELETANDO BRANCHES</2>
+<h2>DELETANDO BRANCHES</h2>
 <p>Não é comum deletar branchs. Geralmente se deleta quando é criado de maneira equivocada.</p>
 <p><b>git branch --delete ou -d nome da branch</b>Apaga a branch.</p>
 <h2>MUDANDO A BRANCH</2>
+<p><b>git checkout nomedabranch</b>muda de branch</p>
