@@ -28,3 +28,10 @@
 <hr>
 <h1>Branches</h1>
 <p>São ramificações de um projeto, ou seja a forma que o git separa a 'versao' do projeto. Todos a partit do branch main/master. Geralmente a cada nova feature do projeto fica em uma branch separada, após as sua alterações os branchs são unidos para chegar o código fonte final.</p>
+<h2>Criando e visualizando os branchs</2>
+<b>git branch</b> Lista os branchs do projeto
+<b>git branch nome-do-branch</b> Cria um novo branch
+<h2>DELETANDO BRANCHES</2>
+<p>Não é comum deletar branchs. Geralmente se deleta quando é criado de maneira equivocada.</p>
+<b>git branch --delete ou -d nome da branch</b>Apaga a branch.
+<h2>MUDANDO A BRANCH</2>
