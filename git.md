@@ -52,5 +52,10 @@
 <p><b>git tag -a nomedatag -m "msgdatag"</b> Cria tags nos branches, como se fosse um checkpoint de um branch. Utilizado para demarcar estágio do desenvolvimento de determinado recurso;</p>
 <p><b>git show tagname</b> Verifica a tag</p>
 <p><b>git checkout tagname</b> Alterna entre as tags</p>
+<h2>ENVIANDO e COMPARTILHANDO AS TAGS</h2>
+<p><b>git push origin tagname</b> Envia a tag pelo nome ao repositório</p>
+<p><b>git push origin --tags</b> Envia todas as tags ao repositório</p>
+
+
 
 
