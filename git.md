@@ -50,5 +50,7 @@
 <p><b>git stash drop id</b> Apaga somente a stash relativa a idss</p>
 <h2>TAGS</h2>
 <p><b>git tag -a nomedatag -m "msgdatag"</b> Cria tags nos branches, como se fosse um checkpoint de um branch. Utilizado para demarcar estágio do desenvolvimento de determinado recurso;</p>
+<p><b>git show tagname</b> Verifica a tag</p>
+<p><b>git checkout tagname</b> Alterna entre as tags</p>
 
 
