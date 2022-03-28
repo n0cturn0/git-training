@@ -38,4 +38,4 @@
 <p><b>git checkout nomedabranch</b> muda de branch</p>
 <h2>UNINDO  BRANCH (MERGE)</h2>
 <p><b>git merge + nomedabranch </b> irá unir a branch que vc está atual mas setada no comando</p>
-<p>Por exemplo, vc esta na branch main. o comando irá unider (executar o merge) da branch main+a branch do comando</p>
+<p>Por exemplo, vc esta na branch main. o comando irá unir (executar o merge) da branch main + a branch do comando</p>
