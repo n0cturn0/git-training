@@ -48,4 +48,7 @@
 <h2>REMOVENDO A STASH</h2>
 <p><b>git stash clear</b> Limpa totalmente as stash de um branch.</p>
 <p><b>git stash drop id</b> Apaga somente a stash relativa a idss</p>
+<h2>TAGS</h2>
+<p><b>git tag -a nomedatag -m "msgdatag"</b> Cria tags nos branches, como se fosse um checkpoint de um branch. Utilizado para demarcar estágio do desenvolvimento de determinado recurso;</p>
+
 
