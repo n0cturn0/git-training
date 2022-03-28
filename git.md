@@ -37,3 +37,5 @@
 <h2>MUDANDO A BRANCH</2>
 <p><b>git chechout NomedoBranch</b>Muda de branch</p>
 <p><b>git chechout -b NomedoBranch</b>Cria um novo branch, e já muda para o mesmo.</p>
+<h2>UNINDO BRANCHES</2>
+<p><b>git merge nomedobranch</b>Faz a união de dois branches,</p>
