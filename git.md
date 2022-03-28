@@ -31,7 +31,11 @@
 <h2>Criando e visualizando os branchs</h2>
 <p><b>git branch</b> Lista os branchs do projeto</p>
 <p><b>git branch nome-do-branch</b> Cria um novo branch</p>
-<h2>DELETANDO BRANCHES</2>
+<h2>DELETANDO BRANCHES</h2>
 <p>Não é comum deletar branchs. Geralmente se deleta quando é criado de maneira equivocada.</p>
 <p><b>git branch --delete ou -d nome da branch</b>Apaga a branch.</p>
-<h2>MUDANDO A BRANCH</2>
+<h2>MUDANDO A BRANCH</h2>
+<p><b>git checkout nomedabranch</b> muda de branch</p>
+<h2>UNINDO  BRANCH (MERGE)</h2>
+<p><b>git merge + nomedabranch </b> irá unir a branch que vc está atual mas setada no comando</p>
+<p>Por exemplo, vc esta na branch main. o comando irá unider (executar o merge) da branch main+a branch do comando</p>
