@@ -33,5 +33,7 @@
 <b>git branch nome-do-branch</b> Cria um novo branch
 <h2>DELETANDO BRANCHES</2>
 <p>Não é comum deletar branchs. Geralmente se deleta quando é criado de maneira equivocada.</p>
-<b>git branch --delete ou -d nome da branch</b>Apaga a branch.
+<b><b>git branch --delete ou -d nome da branch</b>Apaga a branch.
 <h2>MUDANDO A BRANCH</2>
+<p><b>git chechout NomedoBranch</b>Muda de branch</p>
+<p><b>git chechout -b NomedoBranch</b>Cria um novo branch, e já muda para o mesmo.</p>
