@@ -41,3 +41,7 @@
 <p>Por exemplo, vc esta na branch main. o comando irá unir (executar o merge) da branch main + a branch do comando</p>
 <h2>STASH</h2>
 <p><b>git stash </b> Salva as modificações atuais, para prosseguir com uma outra abordagem de solução e não perder o código. Após o comando o branch será resetado para a sua versão de acordo com o repositório.</p>
+<h2>STASH LIST</h2>
+<p><b>git stash list</b>retorna os ids com as stash das stashs existentes</p>
+<p><b>git stash apply id</b>recebe os dados salva da stash</p>
+<p><b>git stash show -p id</b>Mostra as alterações da stash</p>
