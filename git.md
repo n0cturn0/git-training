@@ -34,5 +34,5 @@
 <h2>DELETANDO BRANCHES</h2>
 <p>Não é comum deletar branchs. Geralmente se deleta quando é criado de maneira equivocada.</p>
 <p><b>git branch --delete ou -d nome da branch</b>Apaga a branch.</p>
-<h2>MUDANDO A BRANCH</2>
+<h2>MUDANDO A BRANCH</h2>
 <p><b>git checkout nomedabranch</b>muda de branch</p>
