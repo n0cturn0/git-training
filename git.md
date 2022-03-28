@@ -45,3 +45,7 @@
 <p><b>git stash list</b>retorna os ids com as stash das stashs existentes</p>
 <p><b>git stash apply id</b>recebe os dados salva da stash</p>
 <p><b>git stash show -p id</b>Mostra as alterações da stash</p>
+<h2>REMOVENDO A STASH</h2>
+<p><b>git stash clear</b> Limpa totalmente as stash de um branch.</p>
+<p><b>git stash drop id</b> Apaga somente a stash relativa a idss</p>
+
