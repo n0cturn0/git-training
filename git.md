@@ -56,6 +56,18 @@
 <p><b>git push origin tagname</b> Envia a tag pelo nome ao repositório</p>
 <p><b>git push origin --tags</b> Envia todas as tags ao repositório</p>
 
+<h1>CONFIGURANDO SSH NO WINDOWS</h1>
+<p>Através do gitbash</p>
+<p>Gerando par de chave a ser setado no GITHUB</p>
+<p>ssh-keygen -t ed25519 -C n0cturn0.debian@gmail.com</p>
+<p>Lenbrando que a chave que será setado no github é a chave pública</p>
+<p>Inicializando o agent-ssh</p>
+<p>No gitbash:</p>
+<p>eval $(ssh-agent -s)</p>
+<p>Devendo retornar uma mensagem com o número do id em execução</p>
+<p>Passando a chave privada </p>
+<p>ssh-add chave privada</p>
+
 
 
 
