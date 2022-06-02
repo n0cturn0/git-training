@@ -81,6 +81,10 @@
 <p>git config --global --unset name </p>
 
 
+<h1>Problemas  push-set-upstream</h1>
+<p>git push origin NOME DA BRANCH</p>
+
+
 
 
 
