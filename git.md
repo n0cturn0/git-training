@@ -72,6 +72,16 @@
 <p>git config --global user.email "n0cturn0.debian@gmailcom"</p>
 <p>git config --global name "Luiz Augusto"</p>
 
+<h1>LISTANDO AS CONFIGURAÇÃO EXISTENTE DO GIT</h1>
+<p>git config --list </p>
+
+<h1>REFAZENDO AS CONFIGURAÇÃO EXISTENTE DO GIT</h1>
+
+<p>git config --global --unset user.email</p>
+<p>git config --global --unset name </p>
+
+
+
 
 
 
