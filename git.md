@@ -68,6 +68,13 @@
 <p>Passando a chave privada </p>
 <p>ssh-add chave privada</p>
 
+<h1>CONFIGURANDO GIT</h1>
+<p>git config --global user.email "n0cturn0.debian@gmailcom"</p>
+<p>git config --global name "Luiz Augusto"</p>
+
+
+
+
 
 
 
