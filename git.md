@@ -39,6 +39,35 @@
 <h2>UNINDO  BRANCH (MERGE)</h2>
 <p><b>git merge + nomedabranch </b> irá unir a branch que vc está atual mas setada no comando</p>
 <p>Por exemplo, vc esta na branch main. o comando irá unir (executar o merge) da branch main + a branch do comando</p>
+
+<p><h2>Boas práticas com branchs<h2></p>
+<p>Use e abuse de branchs
+</p>
+
+<p>O recurso de branch é fantástico, você pode criar a partir de qualquer uma.
+</p>
+
+<p>Dicas Principais
+</p>
+
+<ul>
+  <li>Evite gravar diretamente na main.</li>
+  <li>Sempre trabalhe em uma branch separada</li>
+  <li>Integre sua branch quando finalizar seu trabalho</li>
+  <li>Apague sua branch depois que tiver terminado</li>
+</ul>
+
+<p>Exemplo
+</p>
+<p>$ git branch -u main correcao_criacao_vpc
+$ git checkout correcao_criacao_vpc
+ </p>
+
+
+
+
+
+
 <h2>STASH</h2>
 <p><b>git stash </b> Salva as modificações atuais, para prosseguir com uma outra abordagem de solução e não perder o código. Após o comando o branch será resetado para a sua versão de acordo com o repositório.</p>
 <h2>STASH LIST</h2>
@@ -83,6 +112,30 @@
 
 <h1>Problemas  push-set-upstream</h1>
 <p>git push origin NOME DA BRANCH</p>
+
+<h1>Dicas Especiais para Dev e Cloud Enginners</h1>
+<p><h2>Ative o autocorrect</h2></p>
+<p>O autocorrect vai te ajudar nos erros mais comuns, afinal quem nunca digitou git stats o bramch né?</p>
+
+<p>$ git config --global help.autocorrect 10</p>
+<p>$ git bramch
+WARNING: You called a Git command named 'bramch', which does not exist.
+Continuing in 1.0 seconds, assuming that you meant 'branch'.
+dev
+prod
+* main</p>
+
+<p>olhe um exemplo quando digitamo STATS ao invés de STATUS</p>
+<p>$ git stats
+WARNING: You called a Git command named 'stats', which does not exist.
+Continuing in 1.0 seconds, assuming that you meant 'status'.
+On branch gh-pages
+nothing to commit, working tree clean</p>
+<p>como desligar o autocorrect?</p>
+<p>$ git config --global --unset help.autocorrect</p>
+<p></p>
+<p></p>
+<p></p>
 
 
 
