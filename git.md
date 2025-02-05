@@ -63,11 +63,6 @@
 $ git checkout correcao_criacao_vpc
  </p>
 
-
-
-
-
-
 <h2>STASH</h2>
 <p><b>git stash </b> Salva as modificações atuais, para prosseguir com uma outra abordagem de solução e não perder o código. Após o comando o branch será resetado para a sua versão de acordo com o repositório.</p>
 <h2>STASH LIST</h2>
@@ -109,7 +104,6 @@ $ git checkout correcao_criacao_vpc
 <p>git config --global --unset user.email</p>
 <p>git config --global --unset name </p>
 
-
 <h1>Problemas  push-set-upstream</h1>
 <p>git push origin NOME DA BRANCH</p>
 
@@ -136,12 +130,10 @@ nothing to commit, working tree clean</p>
 <p></p>
 <p></p>
 <p></p>
+<h1>Anotações do curso para certificação</h1>
+<p>Lista os commit: git log --oneline</p>
 
-
-
-
-
-
-
-
-
+<p>Supondo que o arquivo index.htm, tenha sido deletado, o comando git checkout -- index.htm <p>
+<p>Redefinindo um arquivo para ser rastreado novamente (Se não estiver (git remove )),,  git reset HEAD index.html <p>
+<p>Para quando precisar reverter um commit, git reset --hard HEAD^, logo em seguida git checkout -- CSS/site.css (caminha completo do arqutivo)<p>
+<p>Como rever um commit que nao, seja o mais atual: git checkout hash(id do commit,) para obter as lista de hash dos commit: git log --oneline. Interessante fazer um novo commit documentando assim reversão<p>
